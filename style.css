@@ -1,0 +1,36 @@
+.bloc-velo
+{
+    color: a2d5c6;
+    border: solid 5px; /* bordure solide (pleine) */
+    margin: 50px; /*marge externe du div*/
+    padding: 50px; /* marge interne du div*/
+    background-color: #077b8a;
+   }
+
+h1
+{
+    color: #5c3c92;
+}
+
+.bloc-trot
+{
+    color: white;
+    border: solid 10px; /* bordure solide (pleine) */
+    border-color: black;
+    margin: 50px; /*marge externe du div*/
+    padding: 50px; /* marge interne du div*/
+    background-image: url("velo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2
+{
+    color: #34a061;
+}
+
+.section-trot-velo{
+
+    display:flex;
+}

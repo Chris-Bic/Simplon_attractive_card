@@ -1,0 +1,64 @@
+.bloc-image
+{
+    border: solid 4px;
+    border-color: #b0215e;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+    display: flex;
+    align-items: flex-end; 
+    background-image: url("parc.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bloc-adresse
+{
+    padding: 40px;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px; /*arrondir la forme d'un bloc*/
+    
+}
+.brown
+{
+    color: brown;
+}
+
+footer
+{
+    text-align: center;
+}
+
+.buttonStyle
+{
+    border: solid 1px;
+    color:#ffffff;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    background-color: #b0215e;    
+}
+
+.buttonStyle:hover
+{
+    border: solid 1px;
+    color: #b0215e;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+       
+}
+
+.lientrot
+{
+    text-decoration:none;
+    display: flex; 
+    justify-content: center;
+}
+
+/* a.section.div.h2{} Juste pour montrer qu'il est possible d'appliquer un style 
+aux liens en h2 qui est a l'interieur d'une div lui meme à l'interieure 
+d'une section*/
